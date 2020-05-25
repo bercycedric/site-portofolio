@@ -1,0 +1,231 @@
+*{
+	margin: 0:;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+/*=====================HEADER======================*/
+
+header{
+	background: #18bc9c;
+	height: 100vh;
+	padding-top: 150px;
+}
+nav{
+	background: #2c3e50;
+	text-transform: uppercase;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-size: 20px;
+	padding: 20px 0;
+}
+a{
+	color: white;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 5px;
+}
+nav ul li{
+	margin: 0 10px;
+}
+nav ul li a{
+	padding: 10px;
+}
+nav ul li a:hover{
+	color: #18bc9c;
+}
+.home{
+	font-size: 30px;
+	float: left;
+	padding-left: 20px;
+}
+.home:hover{
+	color: #edc92c;
+}
+header img{
+	display: block;
+	margin: 50px auto;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-size: 80px;
+}
+.ligne{
+	display: block;
+	margin: 20px auto;
+	height: 2px;
+	background: white;
+	width: 20%;
+}
+header h2{
+	text-align: center;
+	color: white;
+	letter-spacing: 5px;
+}
+
+/*====================== MAIN ========================== */
+
+main section{
+	padding: 90px 0;
+}
+
+main section h2{
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+#une h2, #trois h2{
+	color: #2c3e50;
+}
+#une .ligne, #trois .ligne{
+	background: #2c3e50;
+}
+#une div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+#une div a{
+	width: 400px;
+}
+#une div a img{
+	width: 100%;
+	margin: 20px auto;
+}
+
+/*=================================================== */
+
+#deux{
+	background: #18bc9c;
+	color: white;
+}
+#deux div{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+#deux div article{
+	width: 300px;
+	padding: 10px;
+	margin: 10px 0;
+	font-size: 20px;
+}
+#deux h3{
+	text-align: center;
+	margin-bottom: 15px;
+	color: #2c2e50;
+}
+#deux a{
+	color: white;
+	border: 1px solid white;
+	display: block;
+	margin: 30px auto;
+	width: 10%;
+	text-align: center;
+	padding: 10px;
+}
+#deux a:hover{
+	background: white;
+	color: #2c3e50;
+	border-color: #2c3e50;
+	border-style: dashed;	
+}
+#deux a i{
+	margin: 10px 5px;
+}
+
+/*=================================*/
+
+#trois form{
+	color: #2c3e50;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 50px;
+}
+#trois form aside{
+	width: 50%;
+	margin: auto;
+}
+#trois form aside label{
+	display: block;
+	text-align: left;
+	font-size: 20px;
+}
+#trois form aside input, #trois form aside textarea{
+	display: block;
+	width: 100%;
+	border: 1px dashed #2c3e50;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+#trois form aside input{
+	height: 30px;
+}
+#trois form aside textarea{
+	height: 100px;
+	resize: none;
+}
+#trois form button{
+	background: #18bc9c;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	width: 150px;
+	margin: auto;
+	padding: 20px;
+	font-size: 20px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+#trois form button:hover{
+	background: #128f76;
+}
+/*=========================================*/
+
+footer{
+	padding-top: 50px;
+	background: #2c3e50;
+	color: white;
+	text-align: center;
+}
+footer article{
+	margin-bottom: 30px;
+}
+footer h4{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+footer div:first-child{
+	display: flex;
+	justify-content: space-around;
+}
+footer ul{
+	display: flex;
+	justify-content: space-between;
+}
+footer ul li a{
+	color: white;
+}
+footer ul li a:hover{
+	color: #1a252f;
+}
+footer ul li a i{
+	font-size: 200%;
+}
+footer div:last-child{
+	background: #1a252f;
+	padding: 20px 0;
+}
+
